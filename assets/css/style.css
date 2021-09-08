@@ -635,14 +635,14 @@ section {
   right: 15px;
 }
 
-/*--- Experiences ---*/
+/*--- educations ---*/
 
-/* .experiences {
+/* .educations {
   position: relative;
   top: -2em;
 } */
 
-.experiences .icon-box {
+.educations .icon-box {
   display: flex;
   justify-content: flex-end;
   text-align: center;
@@ -652,11 +652,11 @@ section {
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
 }
 
-.experiences .row {
+.educations .row {
   align-items: center;
   justify-content: center;
 }
-.experiences .icon-box .icon {
+.educations .icon-box .icon {
   margin: 0 auto;
   width: 100px;
   height: 100px;
@@ -668,29 +668,29 @@ section {
   left: 2em;
 }
 
-.experiences .icon-box .icon-inner{
+.educations .icon-box .icon-inner{
   position: relative;
   left: 1.9em;
 }
 
-.experiences .icon-box .icon i {
+.educations .icon-box .icon i {
   font-size: 36px;
   transition: 0.5s;
   position: relative;
 }
 
-.experiences .icon-box .icon svg {
+.educations .icon-box .icon svg {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-.experiences .icon-box .icon svg path {
+.educations .icon-box .icon svg path {
   transition: 0.5s;
   fill: #f5f5f5;
 }
 
-.experiences .icon-box h4 {
+.educations .icon-box h4 {
   font-weight: 600;
   margin: 10px 0 15px 0;
   font-size: 22px;
@@ -699,12 +699,12 @@ section {
   left: -0.3em;
 }
 
-.experiences .icon-box h4 a {
+.educations .icon-box h4 a {
   color: #45505b;
   transition: ease-in-out 0.3s;
 }
 
-.experiences .icon-box p {
+.educations .icon-box p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
@@ -713,92 +713,92 @@ section {
   text-align: left;
 }
 
-.experiences .icon-box:hover {
+.educations .icon-box:hover {
   border-color: #fff;
   box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
 }
 
-.experiences .iconbox-blue i {
+.educations .iconbox-blue i {
   color: #47aeff;
 }
 
-.experiences .iconbox-blue:hover .icon i {
+.educations .iconbox-blue:hover .icon i {
   color: #fff;
 }
 
-.experiences .iconbox-blue:hover .icon path {
+.educations .iconbox-blue:hover .icon path {
   fill: #47aeff;
 }
 
-.experiences .iconbox-green i {
+.educations .iconbox-green i {
   color: #26a901;
 }
 
-.experiences .iconbox-green:hover .icon i {
+.educations .iconbox-green:hover .icon i {
   color: #fff;
 }
 
-.experiences .iconbox-green:hover .icon path {
+.educations .iconbox-green:hover .icon path {
   fill: #26a901;
 }
 
-.experiences .iconbox-orange i {
+.educations .iconbox-orange i {
   color: #ffa76e;
 }
 
-.experiences .iconbox-orange:hover .icon i {
+.educations .iconbox-orange:hover .icon i {
   color: #fff;
 }
 
-.experiences .iconbox-orange:hover .icon path {
+.educations .iconbox-orange:hover .icon path {
   fill: #ffa76e;
 }
 
-.experiences .iconbox-pink i {
+.educations .iconbox-pink i {
   color: #e80368;
 }
 
-.experiences .iconbox-pink:hover .icon i {
+.educations .iconbox-pink:hover .icon i {
   color: #fff;
 }
 
-.experiences .iconbox-pink:hover .icon path {
+.educations .iconbox-pink:hover .icon path {
   fill: #e80368;
 }
 
-.experiences .iconbox-yellow i {
+.educations .iconbox-yellow i {
   color: #ffbb2c;
 }
 
-.experiences .iconbox-yellow:hover .icon i {
+.educations .iconbox-yellow:hover .icon i {
   color: #fff;
 }
 
-.experiences .iconbox-yellow:hover .icon path {
+.educations .iconbox-yellow:hover .icon path {
   fill: #ffbb2c;
 }
 
-.experiences .iconbox-red i {
+.educations .iconbox-red i {
   color: #ff5828;
 }
 
-.experiences .iconbox-red:hover .icon i {
+.educations .iconbox-red:hover .icon i {
   color: #fff;
 }
 
-.experiences .iconbox-red:hover .icon path {
+.educations .iconbox-red:hover .icon path {
   fill: #ff5828;
 }
 
-.experiences .iconbox-teal i {
+.educations .iconbox-teal i {
   color: #11dbcf;
 }
 
-.experiences .iconbox-teal:hover .icon i {
+.educations .iconbox-teal:hover .icon i {
   color: #fff;
 }
 
-.experiences .iconbox-teal:hover .icon path {
+.educations .iconbox-teal:hover .icon path {
   fill: #11dbcf;
 }
 
