@@ -481,6 +481,16 @@ section {
   background-color: #0563bb;
 }
 
+/*--- Experiences ---*/
+
+.experience-box { 
+  text-align: start;
+  transition: all ease-in-out 0.3s;
+  padding: 20px 20px 20px 20px;
+  background: #fff;
+  box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
+}
+
 /*--- Portfolio ---*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
