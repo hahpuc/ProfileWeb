@@ -13,7 +13,12 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Raleway", sans-serif;
 }
 
@@ -77,6 +82,7 @@ h1, h2, h3, h4, h5, h6 {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -86,6 +92,7 @@ h1, h2, h3, h4, h5, h6 {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -133,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
   list-style: none;
 }
 
-.nav-menu > ul > li {
+.nav-menu>ul>li {
   position: relative;
   white-space: nowrap;
 }
@@ -167,27 +174,34 @@ h1, h2, h3, h4, h5, h6 {
   .nav-menu a {
     width: 56px;
   }
+
   .nav-menu a span {
     display: none;
     color: #fff;
   }
 }
 
-.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+.nav-menu a:hover,
+.nav-menu .active>a,
+.nav-menu li:hover>a {
   color: #fff;
   background: #0563bb;
 }
 
-.nav-menu a:hover span, .nav-menu .active > a span, .nav-menu li:hover > a span {
+.nav-menu a:hover span,
+.nav-menu .active>a span,
+.nav-menu li:hover>a span {
   color: #fff;
 }
 
-.nav-menu a:hover, .nav-menu li:hover > a {
+.nav-menu a:hover,
+.nav-menu li:hover>a {
   width: 100%;
   color: #fff;
 }
 
-.nav-menu a:hover span, .nav-menu li:hover > a span {
+.nav-menu a:hover span,
+.nav-menu li:hover>a span {
   display: block;
 }
 
@@ -289,10 +303,12 @@ h1, h2, h3, h4, h5, h6 {
   #hero {
     text-align: center;
   }
+
   #hero h1 {
     font-size: 32px;
     line-height: 36px;
   }
+
   #hero p {
     margin-top: 10px;
     font-size: 20px;
@@ -379,25 +395,26 @@ section {
   display: block;
   background: none;
 }
-.skills h3{
+
+.skills h3 {
   font-family: "Poppins", sans-serif;
   color: #45505b;
 }
 
-.skills .fill{
+.skills .fill {
   color: white;
 }
 
-.skills i{
+.skills i {
   vertical-align: middle;
 }
 
-.skills span{
+.skills span {
   font-family: "Poppins", sans-serif;
   color: #0563bb;
 }
 
-.skills button{
+.skills button {
   width: 100%;
   display: inline-block;
   position: relative;
@@ -406,10 +423,10 @@ section {
 }
 
 .skills button:focus {
-  box-shadow:none;
+  box-shadow: none;
 }
 
-.skills button:after{
+.skills button:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -421,9 +438,10 @@ section {
   transition: width 0.5s ease 0s, left 0.5s ease 0s;
   width: 0;
 }
-.skills button:hover:after{
+
+.skills button:hover:after {
   width: 45%;
-  left: 27%; 
+  left: 27%;
 }
 
 
@@ -435,6 +453,7 @@ section {
   visibility: visible;
   display: block;
 }
+
 .collapsing {
   position: relative;
   height: 0;
@@ -446,6 +465,7 @@ section {
   -webkit-transition-timing-function: ease;
   transition-timing-function: ease;
 }
+
 .collapsing.width {
   -webkit-transition-property: width, visibility;
   transition-property: width, visibility;
@@ -483,7 +503,7 @@ section {
 
 /*--- Experiences ---*/
 
-.experience-box { 
+.experience-box {
   text-align: start;
   transition: all ease-in-out 0.3s;
   padding: 70px 20px 80px 20px;
@@ -524,7 +544,8 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
   color: #0563bb;
 }
 
@@ -671,6 +692,7 @@ section {
   align-items: center;
   justify-content: center;
 }
+
 .educations .icon-box .icon {
   margin: 0 auto;
   width: 100px;
@@ -683,7 +705,7 @@ section {
   left: 2em;
 }
 
-.educations .icon-box .icon-inner{
+.educations .icon-box .icon-inner {
   position: relative;
   left: 1.9em;
 }
@@ -853,11 +875,14 @@ section {
   color: #728394;
 }
 
-.contact .info .email, .contact .info .phone {
+.contact .info .email,
+.contact .info .phone {
   margin-top: 40px;
 }
 
-.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
   background: #0563bb;
   color: #fff;
 }
@@ -888,7 +913,7 @@ section {
   font-weight: 600;
 }
 
-.contact .email-form .error-message br + br {
+.contact .email-form .error-message br+br {
   margin-top: 25px;
 }
 
@@ -921,7 +946,8 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .email-form input, .contact .email-form textarea {
+.contact .email-form input,
+.contact .email-form textarea {
   border-radius: 4px;
   box-shadow: none;
   font-size: 14px;
@@ -952,6 +978,7 @@ section {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -961,6 +988,7 @@ section {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -978,34 +1006,36 @@ section {
   opacity: 0%;
 }
 
-.portfolio-details li{
+.portfolio-details li {
   display: inline;
 }
 
 
-.portfolio-details .langs-used-title{
+.portfolio-details .langs-used-title {
   font-size: 15px;
   font-weight: 400;
   margin-bottom: 20px;
   color: red;
-  
+
 }
 
-.portfolio-details .langs-used-icons{
+.portfolio-details .langs-used-icons {
   color: red;
 }
 
-.portfolio-details .langs-used-p{
+.portfolio-details .langs-used-p {
   font-size: 15px;
   padding: 0 0 0 0;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel {
+.portfolio-details .portfolio-details-carousel .owl-nav,
+.portfolio-details .portfolio-details-carousel {
   top: -2em;
   padding-bottom: 2em;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
+.portfolio-details .portfolio-details-carousel .owl-nav,
+.portfolio-details .portfolio-details-carousel .owl-dots {
   margin-top: 30px;
   text-align: center;
 }
@@ -1042,7 +1072,7 @@ section {
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li + li {
+.portfolio-details .portfolio-info ul li+li {
   margin-top: 10px;
 }
 
@@ -1098,4 +1128,3 @@ section {
   color: #fff;
   text-decoration: none;
 }
-
