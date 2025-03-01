@@ -22,6 +22,18 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.job-infor {
+  padding-left: 16px !important;
+  font-weight: 600;
+  color: #45505b;
+}
+
+.company-name {
+  font-weight: 600;
+  font-size: 18px !important;
+  padding-left: 16px !important;
+  color: #1d46f3;
+}
 
 /*--- Back to top button ---*/
 .back-to-top {
